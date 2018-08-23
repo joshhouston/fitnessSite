@@ -14,6 +14,10 @@ html, body {
     padding: 0;
     width: 100%;
 
+}@media screen and (max-width:809px) {
+  html, body {
+    height: 100%;
+  }
 }
 
 
@@ -221,14 +225,27 @@ nav a:hover {
   height: 80%;
 }
 
+.hr {
+  border: none;
+}
 .topLine {
   border: 3px solid;
   border-right: none;
   border-bottom: none;
   border-left: none;
   border-color: #F26064;
-  padding: 1em;
+  padding: 1.7em;
   width: 10em;
+}
+
+.h3h3UnderLine {
+  border: 3px solid;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-color: #F26064;
+  padding: 1.6em;
+  width: 8em;
 }
 
 .sectionText {
@@ -249,6 +266,10 @@ nav a:hover {
   font-family: 'Chivo', sans-serif;
   text-transform: uppercase;
   font-weight: lighter;
+}@media screen and (max-width: 809px) {
+  .sectionText p {
+    font-size: 50px;
+  }
 }
 
 .aRow {
